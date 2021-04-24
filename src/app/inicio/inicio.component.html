@@ -1,0 +1,12 @@
+<h5>Ejemplo de Target vs Current Target</h5>
+<div class="container">
+    <div class="row">
+        <label for="ipTexto1" class="form-label">Target</label>
+        <input id="ipTexto1" class="form-input" (keyup)="keyUpTexto1($event)">
+        <label for="ipTexto1">CurrentTarget</label>
+        <input id="ipTexto2" (keyup)="keyUpTexto2($event)">
+    </div>
+    <div class="row">
+        <label>{{valorStatico}} {{ valorResultado }}</label>
+    </div>
+</div>
